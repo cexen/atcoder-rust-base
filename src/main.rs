@@ -1,7 +1,8 @@
+#[allow(unused_imports)]
 use proconio::{fastout, input};
 
 #[allow(non_snake_case)]
-#[fastout]
+// #[fastout]
 fn main() {
     input! {
         
