@@ -17,7 +17,9 @@ impl<T: fmt::Display> Dumpable for Vec<T> {
 // --------------------
 
 #[allow(unused_imports)]
-use proconio::{fastout, input};
+use proconio::{fastout, input, marker::Chars};
+#[allow(unused_imports)]
+use std::cmp::{max, min};
 
 #[allow(non_snake_case)]
 // #[fastout]
